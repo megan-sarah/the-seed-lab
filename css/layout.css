@@ -1,0 +1,673 @@
+/*------- custom sections -------*/
+
+/*------- Fonts -------*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+/*------- General -------*/
+
+#to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 18px;
+    width: 118px;
+    border: 1px solid #fff;
+}
+
+button:focus {
+    background-color: black !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4{ 
+    font-family: 'Courier Prime', monospace;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+hr {
+    border-color: #800000;
+    height: 0.1px;
+}
+
+
+.pics {
+    width: 100%;
+    height: auto
+}
+
+h2
+{ transform: rotate(270deg);
+}
+
+button:focus {
+    background-color: #BAF8BD;
+}
+
+h3{margin-left: 20px;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.row .col.m6 {
+    padding: 0;
+}
+
+/*-------- Nav1 ---------*/
+.nav1 {
+    height:60px;
+    display:flex;
+    background-color: black;
+    justify-content:space-between;
+    color: #fff;
+}
+
+.logo {
+    height: 100%;
+    padding-left: 70px;
+}
+
+.logocontact
+{
+    height: 60px;
+}
+
+.nav1 ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.nav1 li{
+    display:inline;
+    padding-right: 20px;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    padding:10px;
+    text-transform:uppercase;
+    color: inherit;
+}
+
+
+.active1 {
+    color: #BAF8BD;
+}
+
+/*-------- Nav2 --------*/
+
+.nav2 {
+    height: 90px;
+    background-color: #DCFADD;
+    display: flex;
+    justify-content: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.nav-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.nav2 li:hover {
+    text-decoration: underline;
+}
+
+/*-------- Intro --------*/
+.intro h4 {
+    padding-top: 40px;
+}
+
+.intro p {
+    width: 75%;
+}
+
+.intro a {
+    color: #BAF8BD;
+}
+
+.to-lab-book {
+    margin-left: 70px;
+    width: 100%;
+}
+
+.instructions {
+    padding-top: 50px;
+}
+
+/*-------- Seeds ---------*/
+.seeds {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #DCFADD;
+}
+
+#section1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#section1.row {
+    margin-bottom: 0;
+}
+
+.underline {
+    text-decoration: underline;
+    transform: scale(1.4);
+}
+
+.carousel-buttons {
+    display:flex;
+    height:auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    color: #0a0aff;
+}
+
+.seed-choice-button{
+    font-family: monospace;
+    font-size: 23px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.seed-choice-button:hover {
+    transform: scale(1.4);
+}
+
+.seed-choice-button:visited {
+    color: black;
+}
+
+.slash {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.seed-card {
+    height: auto;
+    margin-top: 20px;
+}
+
+.seed-card p {
+    color: #0a0aff;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    margin: 2px;
+    text-align: right;
+}
+
+.seed-card img {
+    width: 100%;
+}
+
+.seeds h2 {
+    color: #0a0aff;
+    margin-top: 120px;
+}
+
+/*-------- Lab Book - Calander ---------*/
+#section3 .row {
+    margin-bottom: 0;
+}
+
+#section3 h2 {
+    margin-top: 140px;
+}
+
+.calander {
+    height: 711px;
+}
+
+.key {
+    display: flex;
+}
+
+.seed-selection {
+    background-color: black;
+    height: 711px;
+    padding-left: 30px;
+}
+
+.seed-selection > button {
+    flex: 50%;
+}
+
+.seed-selection .button:visited {
+    background-color: black;
+}
+
+.seed-selection h3 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.seed-selection h4 {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #BAF8BD;
+}
+
+.seed-selection h3, h4 {
+    width: 100%;
+}
+
+
+#rocket {
+    display: none;
+}
+
+#rocket h3 {
+    font-size: 30px;
+}
+
+#cherry-tomatoes h3 {
+    font-size: 30px;
+}
+
+.calander .col.s6 {
+    padding: 0;
+}
+
+.seed-information {
+    background-color: #DCFADD;
+    display: flex;
+    flex-direction: column;
+    height: 711px;
+}
+
+.calander-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seed-information .pics {
+    width: 68%;
+    height: auto;
+}
+
+.seed-information-button {
+    margin-top: 10px;
+    margin-right: 20px;
+    color:black;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+}
+
+.seed-information h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 1.9466666667rem;
+}
+
+.seed-information p {
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 0;
+    font-family: 'Courier Prime', monospace;
+}
+.seed-information h3{
+    margin-left: 20px;
+    color: #000;
+    text-decoration: underline;}
+
+.icon{
+    width:40px;
+}
+
+.iconpot{
+    margin-left: 21pt;
+    width: 30px;
+   
+}
+.iconsow{
+    width: 70px;
+    height: 20px;
+    background-color: #ff8a7e;
+    margin: 5px 5px 5px 91px;
+}
+
+.iconharvest{
+    width: 70px;
+    height: 20px;
+    background-color: #0a0aff;
+    margin: 5px 5px 5px 43px;
+}
+
+.iconharv{
+    margin-left: 35pt;
+    width: 70px;
+}
+
+/*-------- Customize ---------*/
+#section2 {
+    padding-top: 30px;
+}
+
+#section2 h2 {
+    margin-top: 280px;
+}
+
+.customise {
+    padding: 20px 30px;
+}
+
+.customise .button {
+    margin-top: 20px;
+    color: #BAF8BD;
+}
+
+/*-------- Equipment ---------*/
+#section4 {
+    padding-top: 50px;
+}
+
+.equipment {
+    padding: 20px 30px;
+}
+
+.equipment-card {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.equipment p {
+    height: 170px;
+}
+
+.equipment .button {
+    color: #BAF8BD;
+    width: 100%;
+}
+
+#section4 h2 {
+    margin-top: 165px;
+}
+
+/*-------- Medicine ---------*/
+#section5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.medicine-container {
+    background-color: #DCFADD;
+}
+
+.medicine-container.row {
+    margin-bottom: 0;
+}
+
+#section5 h2 {
+    margin-top: 150px;
+}
+
+#section5 p {
+    height: auto
+}
+
+.medicine-button {
+    margin-top: 15px
+}
+
+/*-------- BUTTONS ---------*/
+
+.button
+{
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.buttonblue
+{ background-color: #0A0AFF;
+  display: inline-block;
+  height: 38px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.select-button {
+    background-color: black;
+}
+
+.calander-button {
+    background-color: black;
+    border: none;
+    margin-left: 20px;
+    border-radius: 3px;
+  width: 40%;
+    padding: 10px;
+}
+.calander-button-active {
+    margin-left: 20px;
+    border: 2px solid #BAF8BD;
+    border-radius: 3px;
+    width: 40%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+/*-------- Footer ---------*/
+footer {
+    display: flex;
+    width:auto;
+    background-color:black;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    width: 78%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+footer .row {
+    margin-bottom: 0;
+}
+
+footer p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .logo {
+    height: auto;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    font-size: 22px;
+    padding-bottom: 14px;
+}
+
+.footer-links a:hover {
+    color: grey;
+}
+
+.footer-links a {
+    color: #FFF;
+}
+
+.col4{
+    width: 25%;
+    padding:5%;
+}
+
+.calander-button
+{
+    color: #fff;
+}
+
+
+/*-------- About page ---------*/
+.container {
+    width: 90%;
+}
+
+.indoorgardening {
+    background-color: #DCFADD;
+    margin:20px;
+    padding: 30px 0;
+}
+
+.indoorgardening h4 {
+    margin-top: 50px;
+}
+
+.indoorgardening p {
+    margin-bottom: 50px;
+}
+
+
+.mission-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-mission {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-mission h4 {
+    font-size: 30px;
+}
+
+.container-mission .col.s4 {
+    padding: 0 30px;
+}
+
+.container-mission .pics {
+    width: 55%;
+}
+
+/*-------- contact page ---------*/
+.contact-logo {
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+    margin: 0;
+}
+
+.contact-p {
+    font-family: 'Courier Prime', monospace;
+}
+
+.form-button {
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    color: #BAF8BD;
+    border: none;
+    border-radius: 5px;
+}
+
+label:active {
+    color: black;
+}
+
+.container {
+    width:80%;
+}
+
+input {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+@-webkit-keyframes blink {
+    0%, 100% {
+        transform: scale(1, .05);
+    }
+    5%,
+    95% {
+        transform: scale(1, 1);
+    }
+}
+
+@-webkit-keyframes moving {
+    0%, 100% {
+        transform: scale(1, .05);
+    }
+    5%,
+    95% {
+        transform: scale(1, 1);
+    }
+}
+
+/*-------- Media queries ---------*/
+@media only screen and (min-width: 1600px) {
+    .seed-information .pics {
+        width: 55%;
+        height: auto;
+    }
+}
